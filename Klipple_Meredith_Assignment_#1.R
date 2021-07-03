@@ -26,3 +26,6 @@ median (assign$Murder)
 NewEngland <- subset(assign,State=="ME"|State=="VT"|State=="MA"|State=="NH"|State=="RI"|State=="CT")
 mean (NewEngland$Murder)
 assign$Vcrime <- as.numeric(as.character(assign$Vcrime));mean(assign$Vcrime, na.rm = T)
+
+#Great Job.
+#120 out of 100
